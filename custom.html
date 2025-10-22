@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Orders - Brew Haven</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Custom Orders</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="custom.html">Custom Orders</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Create Your Perfect Drink</h2>
+    <form id="customForm">
+      <label for="drinkType">Drink Type:</label><br />
+      <input type="text" id="drinkType" placeholder="e.g., Mocha, Latte" required /><br />
+      <label for="size">Size:</label><br />
+      <select id="size" required>
+        <option value="">Choose size</option>
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+      </select><br />
+      <button type="submit">Save Custom Order</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brew Haven Coffee Shop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
